@@ -1,0 +1,39 @@
+*  {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: thistle;
+    color: white;
+    text-align: center;
+}
+
+/* title */
+.ml2 {
+    margin-top: 25%;
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+  
+.ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+/* button */
+.btn {
+    text-decoration: none;
+    animation-name: btn;
+    animation-duration: 0.7s;
+}
+
+@keyframes btn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#enter {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
