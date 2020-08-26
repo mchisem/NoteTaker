@@ -1,10 +1,5 @@
 * {
     box-sizing: border-box;
-}
-
-body {
-    color: white !important;
-    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -13,12 +8,13 @@ body {
 .navbar.navbar-dark.bg-dark {
     background-color: thistle !important;
     padding: 15px !important;
+    color: white !important;
 }
 
 #logo {
     float: left !important;
     text-decoration: none !important;
-    color: white;
+    color: white !important;
 }
 
 #notes {
@@ -29,85 +25,74 @@ body {
 
 .material-icons {
     color: white !important;
-    margin-right: 2px;
 }
 
-.tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: grey;
-  color: black;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  text-decoration: none;
-
-  /* Position the tooltip */
-  /* position: absolute; */
+#save {
+    margin-right: 15px;
 }
 
-.material-icons:hover .tooltiptext {
-  visibility: visible;
+.material-icons:hover {
+    visibility: visible;
+    cursor: pointer;
+    opacity: .5;
 }
 
-/* notes */
+/* Note Container */
+.container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin: 0 !important;
+}
+
 .note-textarea, .note-title {
     float: left;
     color: #000000;
     width: 100%;
     outline: none;
     border: none;
-  }
+}
   
-  .note-textarea {
+.note-textarea {
     resize: none;
-    height: calc(100% - 63px);
+    height: calc(80vh - 63px);
     padding-top: 15px;
-  }
+}
   
-  .note-title {
+.note-title {
     height: 50px;
     margin-top: 13px;
     font-size: 3rem;
-  }
+}
   
-  .note-title:read-only, .note-textarea:read-only {
+  /* .note-title:read-only, .note-textarea:read-only {
     color: #757575;
-  }
-  
-  .col-4.list-container {
-    max-width: 2% !important;
-  }
+  } */
 
-  .list-container .card {
-    float: right;
+.col-4.list-container {
     height: calc(100vh - 70px);
-    border-bottom: none;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-  }
-  
-  .list-container {
-    padding-right: 0;
-  }
-  
-  .list-container .list-group,
-  .list-container .list-group-item:first-child,
-  .list-container .card {
-    border-top: none;
-    border-top-right-radius: 0;
-    border-top-left-radius: 0;
-  }
-  
-  .list-container i {
-    font-size: 1.1rem;
+    padding: 0 !important;
+    margin: 0 !important;
+    border-left: rgb(228, 228, 228) solid 2px !important;
+    position: absolute !important;
+    right: 0 !important;
+    -webkit-box-orient: horizontal !important;
+}
+
+.list-group {
+    padding: 0 !important;
+    -webkit-box-orient: horizontal !important;
+}
+
+.list-container i {
+    font-size: 1.1rem !important;
     cursor: pointer;
-  }
-  
-  .list-container .list-group-item {
-    border-left: none;
-    border-right: none;
-    padding: 20px;
-    cursor: pointer;
-  }
-  
+    padding: 15px !important;
+    border: white 1px solid !important;
+    border-radius: 0% !important;
+    font-style: normal !important;
+}
+
+#delete {
+    color: black !important;
+    float: right !important;
+}

@@ -1,3 +1,3 @@
 # NoteTaker
 
-https://mchisem.github.io/note-taker/NoteTaker/index.html
+https://mchisem.github.io/NoteTaker/index.html
