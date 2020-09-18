@@ -4,7 +4,7 @@
 
 ## Description
 
-<img width="1007" alt="" src="./images/homepage.png">
+<img width="1007" alt="" src="develop/images/homepage.png">
 
 ## Table of Contents
 
@@ -39,7 +39,7 @@ npm test
 ## Questions
 
 <img src="https://avatars0.githubusercontent.com/u/58449282?v=4&v=4"
-alt="avatar" style= "width: 30px"/>
+alt="avatar" style= "width: 20px"/>
 
 Questions? Contact me on Github at mchisem or by email at chisem.maya@gmail.com
 
