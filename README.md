@@ -1,7 +1,5 @@
 # NoteTaker
 
-![Github License](https://img.shields.io/badge/license-MIT-blue.svg)
-
 ## Description
 
 <img width="1007" alt="" src="develop/images/homepage.png">
@@ -23,7 +21,8 @@ npm install
 
 ## License
 
-MIT
+![Github License](https://img.shields.io/badge/license-MIT-blue.svg)
+
 
 ## Contributing
 

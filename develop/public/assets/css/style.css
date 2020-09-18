@@ -10,21 +10,23 @@ body {
 
 /* title */
 .ml2 {
-    margin-top: 25%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
     font-weight: 900;
     font-size: 3.5em;
   }
-  
-.ml2 .letter {
-    display: inline-block;
-    line-height: 1em;
-}
 
 /* button */
 .btn {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -53%);
     text-decoration: none;
     animation-name: btn;
-    animation-duration: 0.7s;
+    animation-duration: 4s;
 }
 
 @keyframes btn {
