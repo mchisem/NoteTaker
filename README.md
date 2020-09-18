@@ -4,6 +4,7 @@
 
 ## Description
 
+<img width="1007" alt="" src="./images/homepage.png">
 
 ## Table of Contents
 
@@ -38,8 +39,8 @@ npm test
 ## Questions
 
 <img src="https://avatars0.githubusercontent.com/u/58449282?v=4&v=4"
-alt="avatar" style= "width: 40px"/>
+alt="avatar" style= "width: 30px"/>
 
-Questions? Contact me on Github at mchisem or by email at 
+Questions? Contact me on Github at mchisem or by email at chisem.maya@gmail.com
 
 https://mchisem.github.io/NoteTaker/develop/public/index.html
