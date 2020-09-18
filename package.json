@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/mchisem/NoteTaker#readme",
   "dependencies": {
+    "bootstrap-icons": "^1.0.0-alpha5",
     "git": "^0.1.5",
     "ignore": "^5.1.8"
   }

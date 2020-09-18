@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Taker</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.1.3/flatly/bootstrap.min.css" />
+
+    <!-- Material Icons CDN -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- jQuery CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="./assets/css/taker.css">
+
+</head>
+<body>
+
+    <!-- Navbar -->
+    <!---------------------------->
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="./index.html">Home
+        </a>
+        <div class="icons">
+            <span class="material-icons" id="save">save</span>
+            <i class="material-icons" id="create">create</i>
+        </div>
+      </nav>
+
+    <!-- Note Taking Container -->
+    <!---------------------------->
+    <div class="container-fluid">
+        <div class="col-8">
+            <input class="note-title" placeholder="Note Title" maxlength="28" type="text">
+            <textarea class="note-textarea" placeholder="Note Text"></textarea>
+        </div>
+        
+        <!-- Saved Notes Container -->
+        <!---------------------------->
+        <div class="col-4 list-container"> 
+        <div class="card">  
+            <ul class="list-group">
+                <i>
+                <span id="saved-title">hello</span>
+                <span class="material-icons" id="delete">
+                    delete_forever
+                </span>
+                </i>
+            </ul>
+        </div>
+        </div>
+    </div>
+
+<!-- <script src="./assets/js/taker.js"></script> -->
+</body>
+</html>
